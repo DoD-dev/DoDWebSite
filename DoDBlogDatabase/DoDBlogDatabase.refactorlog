@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="89197fb3-5cf9-4844-af14-ed6f427d2294" ChangeDateTime="07/18/2020 15:23:09">
+    <Property Name="ElementName" Value="[dbo].[Tag].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TagId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b2c370b6-9b1e-4a25-a111-a3b939a917af" ChangeDateTime="07/18/2020 15:29:09">
+    <Property Name="ElementName" Value="[dbo].[Tag].[Tag]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TagỦ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e523bc68-427a-4970-8f61-99193f654e3b" ChangeDateTime="07/18/2020 15:29:26">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagỦ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TagURLSlug" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9fc1ae5b-a717-4b7b-a128-d618ed15477c" ChangeDateTime="07/18/2020 15:33:02">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagURLSlug]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TagDescription" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="27ee3f34-195c-41fe-aad0-ad1313735bf0" ChangeDateTime="07/18/2020 15:36:52">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="884dbe21-9f6d-4f60-9a78-2fc642e0e003" ChangeDateTime="07/18/2020 15:36:54">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="305c3fd2-3de6-443e-bb28-dce09ab5c4b7" ChangeDateTime="07/18/2020 15:36:56">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagDescription]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Description" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0fd7d85f-8e73-4e3d-99f8-bcde0a7a87b8" ChangeDateTime="07/18/2020 15:36:58">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagUrlSlug]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UrlSlug" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7e4a88d6-2462-4fa4-b37b-9b8c223cf3f7" ChangeDateTime="07/18/2020 15:37:12">
+    <Property Name="ElementName" Value="[dbo].[Tag].[TagIsActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsPublished" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="01fba11e-2f1a-4180-9299-37220cc8926c" ChangeDateTime="07/18/2020 17:49:14">
+    <Property Name="ElementName" Value="[dbo].[Tag].[Priority]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="QueuePriority" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b4278680-3960-44c9-91d8-7357f49903f4" ChangeDateTime="07/18/2020 17:51:59">
+    <Property Name="ElementName" Value="[dbo].[Post].[IsSticky]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Post]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OnTop" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5a9c7326-0477-4ad0-8658-172eadc566e3" ChangeDateTime="07/18/2020 17:52:05">
+    <Property Name="ElementName" Value="[dbo].[Tag].[IsSticky]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OnTop" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="12ea2873-2cbf-4b27-b820-b7c4d528415c" ChangeDateTime="07/18/2020 17:56:52">
+    <Property Name="ElementName" Value="[dbo].[Post].[CreatedOn]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Post]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CreatedOrModifiedOn" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="970a1166-2e51-4295-a44d-26b3488a6cf2" ChangeDateTime="07/18/2020 18:00:38">
+    <Property Name="ElementName" Value="[dbo].[PostTag].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PostTag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PostId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5c37236b-3750-4b2a-83a5-74acecdd3011" ChangeDateTime="07/18/2020 18:13:11">
+    <Property Name="ElementName" Value="[dbo].[FK_PostTag_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[PostTag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_PostTag_ToTablePost]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="382461c1-dee8-4911-9362-37cc7d4f7ee7" ChangeDateTime="07/18/2020 18:13:19">
+    <Property Name="ElementName" Value="[dbo].[FK_PostTag_ToTable_1]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[PostTag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_PostTag_ToTable_Tag]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4697dea1-8cad-4f7b-8458-2fed92986093" ChangeDateTime="07/18/2020 18:13:32">
+    <Property Name="ElementName" Value="[dbo].[FK_PostTag_ToTablePost]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[PostTag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_PostTag_ToTable_Post]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="39d81c61-cfc5-4289-b6de-a1792e30cca0" ChangeDateTime="07/18/2020 18:20:10">
+    <Property Name="ElementName" Value="[dbo].[Post].[IsPublished]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Post]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsHidden" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e2a058d-20a9-496a-953f-326767aca0a0" ChangeDateTime="07/18/2020 18:41:13">
+    <Property Name="ElementName" Value="[dbo].[Post].[IsHidden]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Post]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsPublished" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="42450bf7-9aa5-499c-ae13-0d62876dcd11" ChangeDateTime="07/18/2020 18:41:47">
+    <Property Name="ElementName" Value="[dbo].[Tag].[IsPublished]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsPublishedOrNot" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1f8a01fe-eebc-4d11-b04d-8462b85f0a87" ChangeDateTime="07/18/2020 18:42:14">
+    <Property Name="ElementName" Value="[dbo].[Post].[IsPublished]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Post]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsHidden" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cfe7d885-187e-4f6d-be8a-dcf2a0e0f281" ChangeDateTime="07/18/2020 18:42:21">
+    <Property Name="ElementName" Value="[dbo].[Tag].[IsPublishedOrNot]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tag]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsHidden" />
+  </Operation>
+</Operations>
