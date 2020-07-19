@@ -1,44 +1,47 @@
-﻿using Dapper.Contrib.Extensions;
+﻿using Dapper;
+using Dapper.Contrib.Extensions;
+using Data.Data_Model;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 using System.Text;
+using System.Transactions;
 
 namespace Data.Repository
 {
-    class PostRepository : IPostRepository
+    public class PostRepository : IPostRepository
     {
         private IDbConnection database;
         public PostRepository(string connectionString)
         {
             this.database = new SqlConnection(connectionString);
         }
-        public Post Add(Post post)
+        public int Add(Post post)
         {
-            var id = this.database.Insert(post);
-            post.Id = (int)id;
-            return post;
+            return (int)this.database.Insert(post);
         }
 
         public Post Find(int id)
         {
-            throw new NotImplementedException();
+            return this.database.Get<Post>(id);
         }
 
         public List<Post> GetAll()
         {
-            throw new NotImplementedException();
+            return this.database.GetAll<Post>().ToList();
         }
 
         public bool Remove(int id)
         {
-            throw new NotImplementedException();
+            return this.database.Delete(new Post() { Id = id });
         }
 
         public Post Update(Post post)
         {
-            throw new NotImplementedException();
+            this.database.Update(post);
+            return post;
         }
     }
 }

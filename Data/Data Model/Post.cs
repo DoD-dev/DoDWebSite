@@ -1,4 +1,5 @@
-﻿using Data.Data_Model;
+﻿using Dapper.Contrib.Extensions;
+using Data.Data_Model;
 using System;
 using System.Collections.Generic;
 
@@ -18,6 +19,5 @@ namespace Data
         public string AuditLog { get; set; }
         public DateTime? CreatedOrModifiedOn { get; set; }
         public DateTime? PublishedOn { get; set; }
-        public List<Tag> TagsOfPost { get; set; }
     }
 }

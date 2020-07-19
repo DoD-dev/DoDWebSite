@@ -10,7 +10,7 @@ namespace Data.Repository
         Tag Find(int id);
         List<Tag> GetAll();
         Tag Update(Tag tag);
-        Tag Add(Tag tag);
+        int Add(Tag tag);
         bool Remove(int id);
     }
 }

@@ -19,7 +19,7 @@ namespace MonitoringAndTesting
             //}
             Initialize();
             var repository = CreateRepository();
-            var result = repository.GetAll();
+            var result = repository.GetByPostIdAndTagId(1,5);
             result.Output();
         }
         private static void Initialize()
@@ -29,9 +29,9 @@ namespace MonitoringAndTesting
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
             config = builder.Build();
         }
-        private static ITagRepository CreateRepository()
+        private static IPostTagRepository CreateRepository()
         {
-            return new TagRepository("Server =DESKTOP-OUSGEAN\\SQLEXPRESS; Database =DoDWebSite; Trusted_Connection = True;");
+            return new PostTagRepository("Server =DESKTOP-OUSGEAN\\SQLEXPRESS; Database =DoDWebSite; Trusted_Connection = True;");
         }
     }
 }

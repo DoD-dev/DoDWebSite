@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Dapper.Contrib.Extensions;
 using Data.Data_Model;
 using System;
 using System.Collections.Generic;
@@ -16,29 +17,30 @@ namespace Data.Repository
         {
             this.database = new SqlConnection(connectionString);
         }
-        public Tag Add(Tag tag)
+        public int Add(Tag tag)
         {
-            throw new NotImplementedException();
+            return (int)this.database.Insert(tag);
         }
 
         public Tag Find(int id)
         {
-            throw new NotImplementedException();
+            return this.database.Get<Tag>(id);
         }
 
         public List<Tag> GetAll()
         {
-            return this.database.Query<Tag>("SELECT * FROM Tag").ToList();
+            return this.database.GetAll<Tag>().ToList();
         }
 
         public bool Remove(int id)
         {
-            throw new NotImplementedException();
+            return this.database.Delete(new Tag() { Id = id });
         }
 
         public Tag Update(Tag tag)
         {
-            throw new NotImplementedException();
+            this.database.Update(tag);
+            return tag;
         }
     }
 }
